@@ -53,7 +53,6 @@ fl_race_blocks <- transform(fl_race_blocks,
 
 
 vars_to_keep <- vars_to_keep <- c("GEOID","NAME",
-                                  #"summary_value",
                                   "black","white","hisp","AAPI","native","other","multi","geometry")
 
 fl_race_blocks <- fl_race_blocks[vars_to_keep]
