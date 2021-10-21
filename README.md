@@ -68,7 +68,7 @@ write_sf(fl_race_blocks,"fl_race_blocks.shp")
 ## Part 2 - QGIS
 
 Read your shapefile into QGIS with "Add Vector Layer…"
-Next, randomly assign points to polygons with Vector > Research Tools > Random Points in Polygons.
+Next, randomly assign points to polygons with Vector > Research Tools > Random Points Inside Polygons.
 - Select the shapefile as your polygon layer.
 - Next to "number of points for each feature" click the button for data defined override, then under Attribute Field, select "black"
 - Click "run"
