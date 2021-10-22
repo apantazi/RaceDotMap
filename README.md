@@ -80,7 +80,7 @@ Run
 
 Make sure your projection is EPSG:3857 in the bottom-right corner of the window.
 
-Export your points layer to a JSON file.
+Export your points layer to a GEOJSON file.
 
 ## Part 3 - Tippecanoe
 
@@ -88,7 +88,7 @@ Ensure you have Tippecanoe properly installed on your computer. I used Ubuntu, s
 
 ### Open Ubuntu Console
 
-cd to your folder with the json file.
+cd to your folder with the geojson file.
 
 Run this code: tippecanoe -Z6 -z16 -o OUTPUT.mbtiles -f --drop-fraction-as-needed --extend-zooms-if-still-dropping INPUT.geojson
 
