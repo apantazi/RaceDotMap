@@ -78,7 +78,7 @@ Go to Vector > Data Management Tools > Merge Vector Layers
 Select each of the racial attribute fields.
 Run
 
-Make sure your projection is EPSG:3857 in the bottom-right corner of the window.
+Make sure your projection is EPSG:4326 in the bottom-right corner of the window.
 
 Export your points layer to a GEOJSON file.
 
