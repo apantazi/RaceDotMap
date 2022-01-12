@@ -91,7 +91,7 @@ Ensure you have Tippecanoe properly installed on your computer. I used Ubuntu, s
 
 cd to your folder with the geojson file.
 
-Run this code: tippecanoe -Z6 -z16 -o OUTPUT.mbtiles -f --drop-fraction-as-needed --extend-zooms-if-still-dropping INPUT.geojson
+Run this code: tippecanoe -Z10 -o OUTPUT.mbtiles -f -pc -pf -r1 -aC INPUT.geojson
 
 ### Upload to Mapbox
 Go back to R and use the mapboxapi package.
