@@ -1,13 +1,13 @@
 # RaceDotMap
-This variation of the RaceDotMap includes fewer racial categories and focuses on Duval County for our [redistricting map](https://data.jaxtrib.org/jacksonville_redistricting).
+This variation of the RaceDotMap focuses on Duval County for our [redistricting map](https://data.jaxtrib.org/jacksonville_redistricting).
 
-This map overlays the redistricting proposal over 2020 Census data and 2020 presidential election data from the Duval County Supervisor of Elections.
+This map overlays Jacksonville's City Council redistricting proposal over 2020 Census data and 2020 presidential election data provided by the Duval County Supervisor of Elections.
 
-The map used 2020 Census data at the census block level to generate one dot for every person who lives there for the racial data. The map also used precinct-level 2020 election for Duval's 199 precincts. I combined land-use maps with the precinct shapefile to generate votes randomly over residential and mixed-use zoned property to estimate where Biden, Trump and Other voters live.
+The map used 2020 Census data at the census block level to generate one dot for every person who lives there for the racial data. The map also used precinct-level 2020 election for Duval's 199 precincts. I combined city land-use maps with the precinct shapefile to generate votes randomly over residential and mixed-use zoned property to estimate where Biden, Trump and Third Party voters live.
 
 This provides a valuable tool to see how the proposed redistricting plan packs in Black and Democratic voters into four districts in particular.
 
-Below, I provide a roadmap for building the race-dot map using R, QGIS, Tippecanoe and Mapbox.
+Below, I provide a roadmap for building dot maps using R, QGIS, Tippecanoe and Mapbox.
 
 ## Part 1 in R
 ###
